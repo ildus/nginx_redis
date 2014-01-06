@@ -13,4 +13,6 @@ cd nginx-1.5.8
 
 make
 sudo make install
+cd ..
 sudo mkdir /opt/nginx/conf/sites-enabled
+sudo cp nginx.conf /opt/nginx/conf/nginx.conf
