@@ -1,7 +1,7 @@
-sudo apt-get install libpcre3-dev libssl-dev
-sudo apt-get install libgd2-xpm-dev
-sudo apt-get install zlibc zlib1g zlib1g-dev
-sudo adduser --system --no-create-home --disabled-login --disabled-password --group nginx
+sudo apt-get install libpcre3-dev libssl-dev libgd2-xpm-dev zlibc \
+                     zlib1g zlib1g-dev
+sudo adduser --system --no-create-home --disabled-login \
+             --disabled-password --group nginx
 
 cd nginx-1.5.8
 ./configure --prefix=/opt/nginx --user=nginx \
